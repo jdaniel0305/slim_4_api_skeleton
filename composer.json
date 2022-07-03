@@ -1,0 +1,39 @@
+{
+    "name": "jquijano/api-skeleton",
+    "description": "REST API skeleton",
+    "authors": [
+        {
+            "name": "José Daniel Quijano",
+            "email": "jose.quijano55@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.5.0",
+        "slim/psr7": "1.1.0",
+        "zircote/swagger-php": "3.0.4",
+        "php-di/php-di": "6.3.0",
+        "doctrine/orm": "^2.7.3",
+        "oro/doctrine-extensions": "^2.0",
+        "doctrine/cache": "2.1.1",
+        "symfony/yaml": "5.1.2",
+        "symfony/cache": "v3.4.47",
+        "vlucas/phpdotenv": "5.0.0",
+        "monolog/monolog": "^2",
+        "selective/validation": "*",
+        "aws/aws-sdk-php": "*",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "scripts": {
+        "docs": "swagger v1/"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src"
+        }
+    },
+    "config": {
+        "bin-dir": "src/bin"
+    }
+}
