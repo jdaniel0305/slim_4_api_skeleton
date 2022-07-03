@@ -8,6 +8,8 @@
             "role": "Developer"
         }
     ],
+    "homepage": "https://github.com/jdaniel0305/api-skeleton",
+    "license": "MIT",
     "require": {
         "slim/slim": "4.5.0",
         "slim/psr7": "1.1.0",
